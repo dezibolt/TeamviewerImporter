@@ -12,11 +12,13 @@ If you have the required already here is what the csv-file should look like:
 
 ### import_final.csv
 
-pk,remotecontrol_id,groupid,alias,password
+comma seperated
 
-1,rXXXXXXXXX,gXXXXXXXXX,MyFirstServer,StRoNgPaSsWoRd
-2,rXXXXXXXXX,gXXXXXXXXX,MySecondServer,StRoNgPaSsWoRd
-3,rXXXXXXXXX,gXXXXXXXXX,MyFirstClient,StRoNgPaSsWoRd
+pk|remotecontrol_id|groupid|alias|password
+---|---| --- | --- | ---
+1|rXXXXXXXXX|gXXXXXXXXX|MyFirstServer|StRoNgPaSsWoRd
+2|rXXXXXXXXX|gXXXXXXXXX|MySecondServer|StRoNgPaSsWoRd
+3|rXXXXXXXXX|gXXXXXXXXX|MyFirstClient|StRoNgPaSsWoRd
 
 ### Explanation:
 
