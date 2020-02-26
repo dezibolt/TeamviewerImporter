@@ -14,7 +14,6 @@ If you have the required already here is what the csv-file should look like:
 
 pk,remotecontrol_id,groupid,alias,password
 
-
 1,rXXXXXXXXX,gXXXXXXXXX,MyFirstServer,StRoNgPaSsWoRd
 2,rXXXXXXXXX,gXXXXXXXXX,MySecondServer,StRoNgPaSsWoRd
 3,rXXXXXXXXX,gXXXXXXXXX,MyFirstClient,StRoNgPaSsWoRd
@@ -23,12 +22,9 @@ pk,remotecontrol_id,groupid,alias,password
 
 pk = primarykey
 
-
 remotecontrol_id = Teamviewer ID with preceding 'r'
 
-
 groupid = (optional) GroupID - if you login to teamviewer management and select the group you can see the GroupID in the URL
-
 
 alias = alias
 
@@ -50,10 +46,15 @@ Permission for teamviewer app:
 Edit the TVImport.ps1 and change the following variables:
 
 Teamviewer Token
+
 $token = '[INSERTTOKENHERE]'
 
+
 CSV-Path
+
 $path = C:\temp\test.csv
 
+
 Number of CSV-rows
+
 $number = 510
